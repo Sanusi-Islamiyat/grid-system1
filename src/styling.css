@@ -1,0 +1,38 @@
+body {
+    
+    height: 100%;
+    min-height: 100vh;
+  }
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 2px;
+  }
+
+
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    background: #fefffe;
+    border-radius: 10px;
+    transition: box-shadow 0.4s;
+    border: 1px solid gray;
+  }
+
+  .grid-item:hover {
+    background: #9ec28c;
+    box-shadow: 0 0 20px 5px #A9C191;
+    border: none;
+  }
